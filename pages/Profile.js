@@ -24,12 +24,14 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 		backgroundColor: '#fff',
-		margin: 10,
+		padding: 10,
 		// alignItems: 'center',
 		// justifyContent: 'center',
 	},
 	image: {
 		width: '100%',
+		borderRadius: 24, // ios only effect on image 😂
+		overflow: 'hidden',
 		height: undefined,
 		aspectRatio: 1, // This ensures the image maintains its aspect ratio
 	},
